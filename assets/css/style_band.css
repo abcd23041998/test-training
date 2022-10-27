@@ -1,0 +1,279 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.text-white{
+    color: #fff !important;
+}
+#header{
+    background-color: #000;
+    height: 46.5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+}
+#nav{
+    display: inline-block;
+}
+#nav>li{
+    display: inline-block;
+    position: relative;
+    
+}
+#nav>li>a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: block;
+}
+#nav>li:hover>a,
+#nav .subnav a:hover{
+    background-color: #ccc;
+    color: #000;
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+#nav, .subnav, .ticket-lists{
+    list-style-type: none;
+}
+#nav .subnav a{
+    color: #000;
+    background: #fff;
+    line-height: 22.5px;
+    padding: 8px 16px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#header .search-btn{
+    float: right;
+}
+#header .search-icon{
+   color: #fff;
+   line-height: 46.5px;
+   padding: 0 23px;
+}
+#header .search-btn:hover{
+    background-color: #f43366;
+}
+
+#slider{
+    position: relative;
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat; 
+}
+#slider .text-content{
+    position: absolute;
+    color: #fff;
+    bottom: 48px;
+    width: 100%; 
+    /* left: 50%;
+    transform: translateX(-50%); */
+     text-align: center;
+    display: inline-block;
+}
+
+#slider .text-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
+}
+#content .content-section{
+    padding: 64px 0;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;  
+    opacity: 0.6;
+}
+#content .about-text{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+#content .member-list{
+    margin-top: 48px;
+}
+#content .member-item{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+}
+#content .member-name{
+    font-size: 15px;
+    text-align: center;
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
+
+#content .tour-section{
+    background-color: #000;
+}
+.ticket-lists{
+    background-color: #fff;
+    margin-top: 40px;
+}
+.ticket-lists li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.ticket-lists .sold-out{
+    background-color: #f44336;
+    padding: 3px 8px;
+    color: #fff;
+    margin-left: 16px;
+    
+}
+.ticket-lists .quantity{
+    background-color: #000;
+    color: #fff;
+    float: right;
+    width: 25px;
+    height: 22.5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22.5px;
+    margin-top: -3px;
+}
+
+.place-lists{
+    margin: 32px -8px 48px;
+}
+
+.place-item{
+    float: left;
+    width: calc(100%/3);
+    padding: 0px 8px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    background-color: #fff;
+    font-size: 15px;
+    padding: 16px;
+}
+.place-heading{
+    font-weight: 550;
+}
+.place-time{
+    margin-top: 15px;
+    color: #757575;
+}
+.place-desc{
+    margin-top: 15px;
+    line-height: 1.4;
+}
+.place-buy-btn{
+    min-width: 108px;
+    height: 38.5px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.place-buy-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
